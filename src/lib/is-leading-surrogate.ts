@@ -1,0 +1,1 @@
+export const isLeadingSurrogate = (charCode: number) => charCode >= 0xD800 && charCode <= 0xDBFF

@@ -1,0 +1,1 @@
+export const isTrailingSurrogate = (charCode: number) => charCode >= 0xDC00 && charCode <= 0xDFFF
